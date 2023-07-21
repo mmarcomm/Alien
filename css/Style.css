@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Definir o tipo de letra, de onde são as margens, o estilo e o peso do tipo de letra */
 body {
-	font-family: Halyard;
+	font-family: Halyard Text Regular;
 	background-color: #f2f2f2;
 	margin-top: 0px;
 	margin-right: 0px;
