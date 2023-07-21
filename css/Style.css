@@ -27,7 +27,7 @@ header {
 /* Estilo da Barra de navegação */
 .navbar {
 	
-	padding: 16px 20% 10px 10px;
+	padding: 16px 20% 10px 20%;
 	display: flex;
 	position: absolute;
 	justify-content: flex-end;
