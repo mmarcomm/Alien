@@ -27,7 +27,7 @@ header {
 /* Estilo da Barra de navegação */
 .navbar {
 	
-	padding: 16px 20% 10px 20%;
+	padding: 16px 32px 10px 32px;
 	display: flex;
 	position: relative;
 	justify-content: flex-end;
@@ -35,7 +35,7 @@ header {
 	top: 0;
   	background-color: transparent;
  	z-index: 1;
- 	float: right;
+ 	float: left;
 }
 
 /* Apresentação do logo e as suas dimensões */
