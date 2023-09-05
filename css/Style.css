@@ -26,8 +26,17 @@ header {
 	background-position: center;
 }
 /* Estilo da Barra de navegação */
+.square {
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 60%;
+	background-color: #ffffff;
+}
+	
+}
 .navbar {
-
+	width: 65%;
 	padding: 16px 32px 10px 32px;
 	display: flex;
 	position: relative;
@@ -38,6 +47,7 @@ header {
  	z-index: 1;
  	float: left;
 }
+
 
 /* Apresentação do logo e as suas dimensões */
 
@@ -269,7 +279,7 @@ ul li:hover a {
 }
 /* Colunas tripartidas, com um espaçamento de */
 .text_column_tripartite {
-    column-count: 3;
+    column-count: 4;
 	column-gap: 40px;
 	column-width: 30%;
 	
