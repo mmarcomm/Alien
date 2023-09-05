@@ -45,16 +45,16 @@ header {
 	top: 0;
   	background-color: transparent;
  	z-index: 1;
- 	float: left;
+ 	float: right;
 }
 
 
-/* Apresentação do logo e as suas dimensões */
+/* Apresentação do logo e as suas dimensões juntamente com o lado onde se organiza o alinhamento*/
 
 .logo {
 	vertical-align: top;
 	width: 70%;
-	padding: 16px 0px 0px 20%;
+	padding: 0px 0px 0px 20%;
 	display: flex;
 	justify-content: flex-start;
 	position: sticky;
