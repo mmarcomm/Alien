@@ -31,10 +31,10 @@ header {
 	justify-content: center;
 	height: 50px;
 	width: 60%;
+	z-index: 1;
 	background-color: #ffffff;
 }
-	
-}
+
 .navbar {
 	width: 65%;
 	padding: 16px 32px 10px 32px;
@@ -44,8 +44,8 @@ header {
 	position: sticky;
 	top: 0;
   	background-color: transparent;
- 	z-index: 1;
- 	float: right;
+ 	z-index: 2;
+ 	float: middle;
 }
 
 
