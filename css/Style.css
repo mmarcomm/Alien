@@ -2,7 +2,7 @@
 /* Definir o tipo de letra, de onde são as margens, o estilo e o peso do tipo de letra */
 
 body {
-	font-family: Halyard Text Regular, halyard-text;
+	font-family: Halyard Text Regular, halyard-text, halyard-display;
 	background-color: #f2f2f2;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -63,7 +63,7 @@ header {
   	top: 0;
   	background-color: transparent;
  	z-index: 2;
-	width: 100px;
+	width: 120px;
 }
 .icon{
 	padding: 12px 0px 0px 0px;
@@ -99,7 +99,7 @@ header {
 	content: '';
 	height: 2px;
 	width: 0%;   
-	background: #009688;
+	background: #8AA4FF;
 	display: block;
 	margin:auto;
 	position: absolute;
@@ -144,7 +144,7 @@ ul li a {
 	text-decoration: none;
 }
 ul li:hover a {
-	color: #2C9AB7;
+	color: #8AA4FF;
 }
 
 .text_box{
@@ -203,7 +203,7 @@ ul li:hover a {
 	background: #009688;
 	height: 100%;
 	width: 0%;
-	border-radius: 25px;
+	border-radius: 1px;
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -219,7 +219,6 @@ ul li:hover a {
 .button:hover{
 	transition: 0.6s;
 	border: 2px solid #fff;
-	
 }
 
 .button2{
@@ -261,11 +260,6 @@ ul li:hover a {
 	color: #009688;
 }
 
-
-
-
-
-
 /* Faz uma transição do sublinhado aparecer da esquerda para a direita a 100% */
 .text_column_middle {
     /* defenir as margens */
@@ -295,11 +289,14 @@ ul li:hover a {
 	background: transparent;
 	position: relative;
 	cursor: pointer;
+	border-radius: 25px;
+
 }
 .hero-btn:hover{
-	border: 2px solid #f44336;
-	background: #f44336;
-	transition: 1s;
+	border-radius: 25px;
+	border: 1px solid #8AA4FF;
+	background: #8AA4FF;
+	transition: 0.3s;
 }
 
 @media(max-width: 700px){
@@ -348,4 +345,6 @@ ul li:hover a {
 	position: absolute;
 }
 
+}
+@media(max-width: 1400px){
 }
