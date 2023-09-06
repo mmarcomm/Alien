@@ -266,17 +266,20 @@ ul li:hover a {
     margin-top: 32px;
 	margin-left: 20%;
 	margin-right: 20%;
+
 /* Center the container horizontally */
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 /* Colunas tripartidas, com um espaçamento de */
+
 .text_column_tripartite {
     column-count: 4;
 	column-gap: 40px;
 	column-width: 30%;
-	
 }
 
 .hero-btn{
@@ -290,8 +293,8 @@ ul li:hover a {
 	position: relative;
 	cursor: pointer;
 	border-radius: 25px;
-
 }
+
 .hero-btn:hover{
 	border-radius: 25px;
 	border: 1px solid #8AA4FF;
@@ -310,22 +313,24 @@ ul li:hover a {
 	color: #fff;
 	height: 1000px;
 }
+
 .logo {
   	top: 0px;
-  	padding: 0px 0px 0px 20%;
+  	padding: 0px 0px 0px 17%;
   	background-color: transparent;
  	z-index: 3;
 	width: 80px;
 }
+
 	.content h1{
 	font-size:40px;
 
 }
+
 /* peso da font: (400 é o valor padrão, negrito é equivalente a 700), o tamanho e  */	
 .content p{
 	font-weight: 100;
 	font-size: 12px;
-
 }
 
 .navbar ul li{
@@ -346,6 +351,10 @@ ul li:hover a {
 	top: 0px;
 }
 
+.button3{
+
+}
+
 nav ul li {
 	color: #FFFFFF;
 	font-size: 7px;
@@ -354,7 +363,27 @@ nav ul li {
 	font-weight: bold;
 }
 
-
+.menubutton{
+	text-decoration: none;
+	color: #000;
+	border: 1px solid #000;
+	padding: 12px 14px 12px 24px;
+	margin-left: 17%; 
+	font-size: 13px;
+	background: transparent;
+	cursor: pointer;
+	border-radius: 25px;
+	height: 20px;
+	width: 80px;
+	flex: ;
 }
+
+.icon{
+	height: 10px;
+	width: 10px;
+	background-image: url('SGVs/xmark-solid.svg');
+}
+
+
 @media(max-width: 1400px){
 }
