@@ -374,8 +374,12 @@ nav ul li {
 	cursor: pointer;
 	border-radius: 25px;
 	height: 20px;
+	height: 80px;
 	width: 80px;
 	flex: ;
+}
+.square{
+	display: none;
 }
 
 .icon{
