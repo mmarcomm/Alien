@@ -51,7 +51,9 @@ header {
  	z-index: 2;
  	float: middle;
 }
-
+.icon2 {
+	display: none;
+}
 
 /* Apresentação do logo e as suas dimensões juntamente com o lado onde se organiza o alinhamento*/
 
@@ -378,11 +380,12 @@ nav ul li {
 	flex: ;
 }
 .square{
-	display: none;
+	display: inline;
 }
 
 .icon2{
 	width: 20px;
+	display: ;
 }
 
 
