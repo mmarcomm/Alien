@@ -1,0 +1,16 @@
+import './css/Style.css'; // Import your CSS file
+
+function MyButton() {
+  const handleClick = () => {
+    // Handle the click event here, e.g., navigate to another page
+    window.location.href = '/another-page'; // Replace with the desired URL
+  };
+// 
+  return (
+    <button className="my-button" onClick={handleClick}>
+      I'm a button
+    </button>
+  );
+}
+
+export default MyButton;
