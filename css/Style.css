@@ -38,7 +38,7 @@ header {
 	left: 17%;
 	border-radius: 35px;
 }
-
+/* Cenas potencias a alterar - Multiple Positioning: You've defined position: sticky; and position: fixed; simultaneously for certain classes (like .navbar). This will not work as intended. You should decide between them. */
 .navbar {
 	width: 67%;
 	padding: 16px 0px 16px 0px;
@@ -49,10 +49,9 @@ header {
 	top: 0px;
   	background-color: transparent;
  	z-index: 2;
- 	float: middle;
 }
 
-.menubutton img {
+.menubutton {
   display: none;
 }
 
@@ -115,11 +114,10 @@ header {
 /* Faz uma transição do sublinhado aparecer da esquerda para a direita a 100% */
 .navbar ul li:hover::after{
 	width: 100%;
-	background: #00000;
+	background: #000;
 	position: absolute;
 	left: 0;
 	bottom: -10px;
-
 }
 
 nav {
@@ -346,16 +344,12 @@ ul li:hover a {
 	flex-direction: column;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	columns: ;
+	columns: 3;
 	height: 100vh;
 	width: 40vh;
 	text-align: left;
 	z-index: 4;
 	top: 0px;
-}
-
-.button3{
-
 }
 
 nav ul li {
@@ -378,24 +372,24 @@ nav ul li {
 	border-radius: 25px;
 	height: 20px;
 	width: 20px;
-	flex: ;
 }
+
 .menubutton img {
   /* Add your CSS styles here */
   	display: inline;
 	width: 22px;
-	height: 22px;
+
+
+}
+
+.menubutton {
+	width: 70px;
+	height: 45px;
+	display: inline;
 }
 
 .square{
 	display: inline;
 }
 
-.icon2{
-	width: 20px;
-	display: ;
-}
-
-
-@media(max-width: 1400px){
-}
+@media(max-width: 1400px){}
