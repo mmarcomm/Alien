@@ -1,9 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-  var menuButton = document.querySelector('.menubutton');
+  const menuButton = document.querySelector('.menubutton');
+  const navbar = document.querySelector('.navbar');
 
-  if (menuButton) {
-      menuButton.addEventListener('click', function() {
-          window.location.href = 'produto.html';
-      });
-  }
+  menuButton.addEventListener('click', function() {
+      navbar.classList.toggle('hidden');
+  });
 });

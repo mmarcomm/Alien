@@ -391,5 +391,10 @@ nav ul li {
 .square{
 	display: inline;
 }
+/*  */
+.navbar.hidden > *:not(.menubutton) {
+    display: none;
+	background: none;
+}
 
 @media(max-width: 1400px){}
