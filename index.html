@@ -14,17 +14,34 @@
 
 			<header>
 				<div class="banner">
+						<script>
+  // Get references to the menu button and the elements to hide
+  const menuButton = document.getElementById("menuButton");
+  const square = document.querySelector(".square");
+  const navgatorList = document.getElementById("navgatorList");
+
+  // Add a click event listener to the menu button
+  menuButton.addEventListener("click", function () {
+    // Toggle the visibility of the square element
+    square.style.display = square.style.display === "none" ? "block" : "none";
+    
+    // Toggle the visibility of the navigation list
+    navgatorList.style.display = navgatorList.style.display === "none" ? "block" : "none";
+  });
+						</script>
+
+
 					<div class="square">
 					</div>
 					<div class="navbar">
 						<i class="menubutton">
 							<img src="SGVs/menu.svg" alt="Icon not working">
 						</i>
-						
+
 					<img src="SGVs/Studio313.svg" alt="The logo" class="logo"/>
 
 						<img src="SGVs/xmark-solid.svg" alt="X" class="icon"/>
-	  					<ul>
+	  					<ul id="navgatorList">
 							<li><a href="produto.html">PRODUTOS</a></li>
 							<li><a href="#">SOBRE</a></li>
 							<li><a href="#">CONTACTO</a></li>
