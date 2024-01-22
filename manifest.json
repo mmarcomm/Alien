@@ -1,0 +1,9 @@
+{
+    "name": "Studio313",
+    "short_name": "studio313",
+    "icons": [...],
+    "start_url": "/",
+    "background_color": "#fff",
+    "display": "standalone",
+    "theme_color": "#EE4B2B"
+  }
