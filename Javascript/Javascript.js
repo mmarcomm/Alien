@@ -5,4 +5,13 @@ document.addEventListener('DOMContentLoaded', function() {
   menuButton.addEventListener('click', function() {
       navbar.classList.toggle('hidden');
   });
+
+});
+
+buttons.forEach((button,index) => {
+  button.addEventListener('click', (e)=>{
+    e.preventDefault();
+    button.classList.add('active');
+    removeActive(index);
+  })
 });
